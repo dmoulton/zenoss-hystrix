@@ -1,7 +1,7 @@
 zenoss-server: http://zenoss.example.com:8080/zport/dmd/evconsole_router
 zenoss-user: zenoss-user
 zenoss-password: zenoss-password
-hystrix-server: http:/hystix.example.com:9090/turbine/turbine.stream?cluster=my-cluster
+hystrix-server: http://hystix.example.com:9090/turbine/turbine.stream?cluster=my-cluster
 components:
   :one: "My Component"
 blacklist:
