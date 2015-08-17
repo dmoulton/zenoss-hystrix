@@ -1,0 +1,5 @@
+This script watches the stream of messages that hystrix sends out, and passes on open circuit and error notifications to zenoss.
+
+To use it, you should copy config.yml.sample to config.yml and edit the values to be what you want.
+
+The blacklist section allows you to ignore any hystrix circuits you want to.
